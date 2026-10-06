@@ -244,7 +244,6 @@ class FlightViewSet(
         if dest_name:
             queryset = queryset.filter(route__destination__name__icontains=dest_name)
 
-
         # When viewing details, we also need to know exactly WHICH tickets are taken
         # and who the crew is. We prefetch this to avoid N+1 queries.
         if self.action == "retrieve":

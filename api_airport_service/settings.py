@@ -29,7 +29,11 @@ DEBUG = os.environ.get("DEBUG") == "True"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    '127.0.0.1',
+    'localhost',
+]
 
 INTERNAL_IPS = [
     "127.0.0.1",
@@ -158,7 +162,7 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    "TITLE": "Airport Service API",
+    "TITLE": "AeroVelox API",
     "DESCRIPTION": "API for managing airport flights and tickets",
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,
