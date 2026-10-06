@@ -1,11 +1,11 @@
-# Airport API Service ✈️
+# AeroVelox API ✈️
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat&logo=python)
 ![Django](https://img.shields.io/badge/Django-5.0-green?style=flat&logo=django)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue?style=flat&logo=docker)
 [![Postgres](https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white)](#)
 
-**Airport API Service** is a comprehensive RESTful API for managing airport infrastructure and flight operations. It allows administrators to manage resources like airplanes and crews, while providing users with functionality to search for flights and book tickets.
+**AeroVelox API** is a comprehensive RESTful API for managing airport infrastructure and flight operations. It allows administrators to manage resources like airplanes and crews, while providing users with functionality to search for flights and book tickets.
 
 The project is built with Django REST Framework, fully containerized using Docker, and uses PostgreSQL as the database.
 
@@ -43,8 +43,8 @@ The project is built with Django REST Framework, fully containerized using Docke
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Psychox1k/api-airport-service.git
-cd api_airport_service
+git clone https://github.com/Psychox1k/AeroVelox.git
+cd AeroVelox
 ```
 
 
